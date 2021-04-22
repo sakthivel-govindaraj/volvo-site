@@ -1,0 +1,450 @@
+	* {
+		box-sizing: border-box;
+	}
+	.layout{
+		margin: auto;
+		max-width: 1000px;
+	}
+
+	.header{
+		height: 40px;
+		width: 1350px;
+		background-color: #FAFAFA;
+		display: flex;
+		justify-content: space-between;
+
+	}
+	.pagehead{
+		display: flex;
+		justify-content: space-around;
+		height: 200px;
+
+	}
+	.pagehead h2{
+		font-weight: 500;
+		font-size: 2.5rem;
+	}
+	.pagehead p{
+		font-weight: 300;
+		font-size: 1.25rem;
+		color: #707070
+
+	}
+	.flex{
+		display: flex;
+	}
+
+	.product{
+		height:400px;
+		width:50%;
+	}
+	.pricing{
+		flex-direction: column;
+
+	}
+
+	.pricing h2{	
+		font-weight: 500;
+		font-size: 2rem;
+
+	}
+	.pricing span{
+		color: #747070;
+		font-size: 20px;
+		font-weight: 300;
+
+	}
+	.pricing p{
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.purchase  h2{
+		font-weight: 500;
+		font-size: 2rem;
+	}
+	.purchase p{
+		color: #707070;
+		font-weight: 300;
+
+	}
+	.purchase button{
+		border-radius: 4px;
+		min-width:147px;
+		height: 50px;
+		font-size:0.875rem;
+		text-align: center;
+		background-color:#284e80;
+		color: #F3F9FA;
+		border: 0;
+	}
+	.hover{
+		background-color: black;
+	}
+
+	.flex-end {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.additional-info{
+		height: 50px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.models {
+		height: 600px;
+		width: 33%
+
+	}
+	.models img{
+		padding-top: 10px;
+	}
+	.models h3{
+		font-weight:500; 
+
+	}
+	.models p {
+		color:#707070; 
+		font-weight:300;
+	}
+	.models span{
+		color: #656BBA;
+	}
+	.models a{
+		text-decoration: none;
+
+	}
+
+	.disclaimer{
+		text-align: center;
+		color: #7D807D;
+	}
+	.footer{
+		display: flex;
+		height: 100px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.site-footer{
+		display: flex;
+		justify-content: space-around;
+		width: 204px;
+	}
+	.img{
+		height: 500px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image:url("https://www.volvocars.com/images/v/in/v/-/media/project/contentplatform/data/media/my22/homepage/hero/moment-4-promotional-hero-2560x1440.jpg?h=1440&iar=0&w=2560");
+
+	}
+	.img-content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.font-sm{
+		font-size: 1.3rem;
+		font-weight:500;
+		color: white;
+		padding-top:46px; 
+
+	}
+	.font-la{
+		font-size: 4.3rem;
+		font-weight:400;
+		color: white;
+		margin: auto;
+
+	}
+	.font-ln{
+		font-size: 14px;
+		font-weight: 400;
+		color: white;
+	}
+	.volvo-cnt{
+		padding-top: 60px;
+		margin: auto;
+		width: 620px;
+		text-align: center;
+	}
+	.volvo-heading{
+		font-size: 2rem;
+		font-weight: 500;	
+	}
+	.volvo-heading-color{
+		font-size: 2rem;
+		font-weight:500;
+		color:#707070;
+	}
+	.img-showcasebig{
+		/*width: 100%;*/
+		height: 443px;
+		margin: 80px;
+	}
+	.img-showcasesm{
+		height: 400px;
+		width:50%;
+	}
+	.button{
+		margin: auto;
+		height: 100px;
+		width: 100%;
+		text-align:center;
+		padding-top: 32px;
+
+	}
+	.button-style{
+		border-radius: 4px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #1C6BBA;
+		color:#1C82D2;
+		min-width: 96px;
+		font-size: 0.875rem;
+		font-weight: 500;
+		padding: 12px 24px;
+		background-color:#FFFFFF;
+	}
+	.section{
+		padding: 100px;
+		width:100%;
+		text-align:center;
+		height: 20px;
+	}
+	.heading-m{
+
+		font-size:1.5rem;
+	}
+	.design{
+		height:400px;
+		width: 50%;
+		background-image: url("	https://www.volvocars.com/images/v/in/v/-/media/project/contentplatform/data/media/homepage/featured-models/xc40-recharge-desktop-4x3.jpg?h=1440&iar=0&w=1920");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.models-img{
+		height:400px;
+		width: 50%;
+		background-image: url("https://www.volvocars.com/images/v/in/v/-/media/market-assets/india/applications/dotcom/images/homepage/s60-desktop-4x3.jpg?h=1440&iar=0&w=1920");
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-left: 10px;
+	}
+	.hatch-font{
+		display: flex;
+		flex-direction: column;		
+		text-align: center;	
+		color: white;
+		padding: 28px;
+	}
+	.Add-info{
+		height: 120px;
+		width: 50%;
+		text-align: center;
+		padding: 14px;
+		color: #1C6BBA;
+	}
+	.other-cars{
+		height: 400px;
+		
+
+	}
+	.learn-s{
+		color: #1C6BBA;
+		text-align: center;
+		padding: 10px;
+	}
+	.img-la{
+		height:700px;
+		width: 94%;
+		margin: auto;
+
+	}
+	.future {
+		height:160px;
+		width:33%;
+	}
+	.future-h-fnt{
+		font-size:1.25rem ;
+		font-weight:500;
+	}
+	.future-p-fnt{
+		color: #707070;
+		font-weight: 300;
+	}
+	.btn {
+		height: 50px;
+		width: 315px;
+		border-style: solid;
+		border-radius: 5px;
+		color: #1C6BBA;
+		font-size: 1rem;
+		font-weight: 500;
+		border-width: 1px;
+		background-color: white;
+		border-color:#1C6BBA; 
+	}
+	.btn-center{
+		display: flex;
+		justify-content: center;
+	}
+	.background-img-big{
+		height:513px;
+		width: 94%;
+		margin: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url("https://www.volvocars.com/images/v/in/v/-/media/market-assets/india/applications/dotcom/images/homepage/range-car-web-banner_5120x2194-pix-06.jpg?h=2194&iar=0&w=5120");
+		margin-top: 60px;
+	}
+	.volvo-h-fnt{
+		font-size: 2rem;
+		font-weight: 500;
+		color:white;
+	}
+	.align{
+		padding-top: 10px;
+		padding-left: 55px;
+	}
+	.volvo-p-fnt{
+		font-size: 1.3rem;
+		font-weight: 300;
+		color:white;
+	}
+	.buyonline-fnt{
+		border-style: solid;
+		border-width:1px;
+		border-radius: 6px;
+		height:50px;
+		width: 142px;
+		background-color: white;
+
+	}
+	.quick-fnt{
+		text-align: center;
+		padding: 67px;
+		font-size: 1rem;
+	}
+	.links{
+		
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		color:blue;
+
+	}
+	.info{
+		width:50%;
+		height: 200px;
+
+	}
+	.test-align  {
+		display: flex;
+		justify-content: space-between;
+		padding:10px;
+
+		
+
+	}
+	.footer-align{
+		display: flex;
+		justify-content: space-between;
+		width: 192px;
+		color: #141414;
+		font-size: 0.8rem;
+
+	}
+	.flexdirection{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	body {
+		font-family: 'Karla', sans-serif;
+	}
+	.color{
+		background-color:#FAFAFA;
+	}
+
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		right: 0;
+		background-color: #111;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+	}
+
+	.sidenav a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+	}
+
+	.sidenav a:hover {
+		color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+	.align1{
+		display:flex;
+	}
+	#main {
+		transition: margin-left .5s;
+		padding: 16px;
+	}
+
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-size: 18px;}	
+	}
+
+
+	@media  screen and (max-width: 550px) {
+
+		.img-content h1{
+
+			font-size: 1rem;
+		}
+		.volvo-cnt span{
+
+			font-size: 0.6rem;
+			
+		}
+		.flex{
+			flex-direction: column;
+		}
+		.design{
+			margin:65px;
+		}
+		.models-img{
+			margin: 60px;
+
+		}
+		
+
+		
+
+	}
+
+
+	
+
+	
+	
